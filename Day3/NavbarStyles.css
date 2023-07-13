@@ -1,0 +1,70 @@
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:purple;
+    color: white;
+    padding: 20px;
+}
+.sign-up-text {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 10px;
+    display: flex;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin-right: 20px;
+  }
+  
+  .nav-menu li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-menu li a:hover {
+    color:greenyellow;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+  
+    .nav-menu.active {
+      display: flex;
+    }
+    
+  
+    .hamburger {
+      display: block;
+    }
+   
+  }
+  

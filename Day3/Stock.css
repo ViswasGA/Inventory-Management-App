@@ -1,0 +1,58 @@
+/* Customize the background color of the footer */
+footer {
+  background-color:green;
+}
+
+/* Style the container and adjust padding */
+.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Style the logo */
+.logo {
+  height: 32px;
+  fill: #4a5568;
+}
+
+/* Style the heading */
+.heading {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #4a5568;
+}
+
+/* Style the links */
+.links {
+  font-size: 14px;
+  color: #4a5568;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.links:hover {
+  color: #2f855a;
+}
+
+/* Style the copyright text */
+.copyright {
+  font-size: 12px;
+  color: #4a5568;
+  margin-top: 32px;
+}
+
+/* Style the social media links */
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  margin-right: 8px;
+  color: #4a5568;
+}
+
+.social-links a:hover {
+  color: #2f855a;
+}
