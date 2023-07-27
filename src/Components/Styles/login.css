@@ -1,0 +1,64 @@
+/* login.css */
+
+.auth-form-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 900px; /* Increased width */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the form */
+  justify-content: center; /* Center align the form */
+  height: 50vh; /* Set the container height to fill the viewport */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Set the form width to 100% */
+  max-width: 300px; /* Limit the form's maximum width */
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: #333;
+  color: #fff;
+}
+
+.error {
+  color: #ff5555;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff5555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3333;
+}
